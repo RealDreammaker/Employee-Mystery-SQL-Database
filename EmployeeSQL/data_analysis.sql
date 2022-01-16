@@ -50,3 +50,8 @@ SELECT last_name, count(last_name) AS frequency
 FROM employees
 GROUP BY last_name
 ORDER BY frequency DESC;
+
+--From 1 unusual last_name, I found a fake record!
+SELECT *
+FROM employees
+WHERE last_name = 'Foolsday';

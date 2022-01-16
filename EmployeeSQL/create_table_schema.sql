@@ -16,12 +16,10 @@ CREATE TABLE employees(
 emp_no VARCHAR(10) NOT NULL, 
 emp_title_id VARCHAR(20) NOT NULL,
 birth_date VARCHAR(10) NOT NULL,
-CHECK (birth_date like '%/____'),
 first_name VARCHAR(30) NOT NULL,
 last_name VARCHAR(30) NOT NULL,
 sex VARCHAR(1) NOT NULL,
 hire_date VARCHAR(10) NOT NULL,
-CHECK (hire_date like '%/____'),
 FOREIGN KEY (emp_title_id) REFERENCES titles(title_id),
 PRIMARY KEY(emp_no));
 
@@ -49,8 +47,12 @@ salary INT NOT NULL,
 FOREIGN KEY(emp_no) REFERENCES employees(emp_no)
 );
 
---DROP TABLE dept_emp;
---DROP TABLE dept_manager;
---DROP TABLE salaries;
---DROP TABLE employees;
+
+
+
+
+
+
+
+
 
