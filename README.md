@@ -50,3 +50,5 @@ With the complete database, [data queries](EmployeeSQL\data_analysis.sql) were i
 </br>
 <img src="Images\average_salary.png" width="60%" height="60%">
 
+4. Interesting finding: An employee with ID number 499942 has a full name of April Foolsday
+
