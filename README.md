@@ -43,7 +43,7 @@ With the complete database, [data queries](EmployeeSQL\data_analysis.sql) were i
    engine = create_engine('postgresql://{user_name}:{password}@localhost:5432/sql_challenge')
    connection = engine.connect()
    ```
-
+</br>
 2. Create a histogram to visualize the most common salary ranges for employees
 </br>
 <img src="Images\histogram.png" width="60%" height="60%">
