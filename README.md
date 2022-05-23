@@ -9,6 +9,7 @@ The task is to design the tables to hold data in the CSVs, import the CSVs into 
 ## Outcomes 
 ### Data Modelling
 Inspect the CSVs and sketch out an ERD of the tables using an online tool [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com). Data input can be found [here](EmployeeSQL\ERD.txt)
+</br>
 <img src="EmployeeSQL\ERD.png" width="60%" height="60%">
 
 ### Data Engineering
@@ -43,10 +44,10 @@ With the complete database, [data queries](EmployeeSQL\data_analysis.sql) were i
    connection = engine.connect()
    ```
 
-2. Create a histogram to visualize the most common salary ranges for employees.
+2. Create a histogram to visualize the most common salary ranges for employees
 </br>
 <img src="Images\histogram.png" width="60%" height="60%">
-3. Create a bar chart of average salary by title.
+3. Create a bar chart of average salary by title
 </br>
 <img src="Images\average_salary.png" width="60%" height="60%">
 
