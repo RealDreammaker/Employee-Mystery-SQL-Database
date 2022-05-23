@@ -7,15 +7,15 @@ The task is to design the tables to hold data in the CSVs, import the CSVs into 
 <hr>
 
 ## Outcomes 
-### Data Modeling
+### Data Modelling
 Inspect the CSVs and sketch out an ERD of the tables using an online tool [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com). Data input can be found [here](EmployeeSQL\ERD.txt)
-![ERD](EmployeeSQL\ERD.png)
+<img src="EmployeeSQL\ERD.png" width="60%" height="60%">
 
 ### Data Engineering
 From the model above, a [table schema](EmployeeSQL\create_table_schema.sql) was built for each of the six CSV files, with consideration to specify data types, primary keys, foreign keys, composite keys and other constraints.
 
 ### Data Analysis
-With the complete database, [data queries](EmployeeSQL\data_analysis.sql) were initiated to answer the following quesitions:
+With the complete database, [data queries](EmployeeSQL\data_analysis.sql) were initiated to answer the following questions:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
