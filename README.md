@@ -8,15 +8,15 @@ The task is to design the tables to hold data in the CSVs, import the CSVs into 
 
 ## Outcomes 
 ### Data Modelling
-Inspect the CSVs and sketch out an ERD of the tables using an online tool [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com). Data input can be found [here](EmployeeSQL\ERD.txt)
+Inspect the CSVs and sketch out an ERD of the tables using an online tool [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com). Data input can be found [here](EmployeeSQL/ERD.txt)
 </br>
-<img src="EmployeeSQL\ERD.png" width="60%" height="60%">
+<img src="EmployeeSQL/ERD.png" width="60%" height="60%">
 
 ### Data Engineering
-From the model above, a [table schema](EmployeeSQL\create_table_schema.sql) was built for each of the six CSV files, with consideration to specify data types, primary keys, foreign keys, composite keys and other constraints.
+From the model above, a [table schema](EmployeeSQL/create_table_schema.sql) was built for each of the six CSV files, with consideration to specify data types, primary keys, foreign keys, composite keys and other constraints.
 
 ### Data Analysis
-With the complete database, [data queries](EmployeeSQL\data_analysis.sql) were initiated to answer the following questions:
+With the complete database, [data queries](EmployeeSQL/data_analysis.sql) were initiated to answer the following questions:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
@@ -46,10 +46,10 @@ With the complete database, [data queries](EmployeeSQL\data_analysis.sql) were i
 </br>
 2. Create a histogram to visualize the most common salary ranges for employees
 </br>
-<img src="Images\histogram.png" width="60%" height="60%">
+<img src="Images/histogram.png" width="60%" height="60%">
 3. Create a bar chart of average salary by title
 </br>
-<img src="Images\average_salary.png" width="60%" height="60%">
+<img src="Images/average_salary.png" width="60%" height="60%">
 
 4. Interesting finding: An employee with ID number 499942 has a full name of April Foolsday
 
