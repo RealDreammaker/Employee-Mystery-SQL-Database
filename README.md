@@ -10,7 +10,7 @@ The task is to design the tables to hold data in the CSVs, import the CSVs into 
 ### Data Modelling
 Inspect the CSVs and sketch out an ERD of the tables using an online tool [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com). Data input can be found [here](EmployeeSQL/ERD.txt)
 </br>
-<img src="EmployeeSQL/ERD.png" width="60%" height="60%">
+<img src="EmployeeSQL/ERD.png" width="100%" height="100%">
 
 ### Data Engineering
 From the model above, a [table schema](EmployeeSQL/create_table_schema.sql) was built for each of the six CSV files, with consideration to specify data types, primary keys, foreign keys, composite keys and other constraints.
